@@ -251,7 +251,7 @@ a,button{
 
 .logo-header img {
     width: 70%;
-    height: auto;
+    height: 20px;
 }
 
 @media (max-width: 600px) {
