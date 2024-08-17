@@ -1,0 +1,24 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
+
+class DummyClass extends BaseRepository
+{
+    /**
+     * @var Model
+     */
+    protected Model $model;
+
+    /**
+     * DummyClass constructor.
+     *
+     * @param Model $model
+     */
+    public function __construct(Model $model)
+    {
+        $this->model = $model;
+    }
+}

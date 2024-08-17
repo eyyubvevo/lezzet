@@ -1,0 +1,13 @@
+User-agent: *
+Disallow:
+
+
+Disallow: /az/sifarish-tamamlandi
+Disallow: /ru/zakaz-oformlen
+Disallow: /en/order-completed
+
+Disallow: /az/sebetim
+Disallow: /ru/moya-telejka
+Disallow: /en/shopping_cart
+
+Sitemap: https://www.lezzet.al/sitemap.xml
