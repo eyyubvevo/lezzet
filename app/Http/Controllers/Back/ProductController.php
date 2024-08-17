@@ -152,8 +152,8 @@ class ProductController extends Controller
 
             $uploadFile = $this->eloquentProductRepository->uploadFile(
                 file: $request->file('upload'),
-                folder: 'storage/products',
-                disk: 'products',
+                folder: $folder,
+                disk: $disk,
                 filename: $filename,
                 allowedMimes: $allowedMimes,
                 maxSize: $maxSize,
