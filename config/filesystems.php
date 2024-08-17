@@ -36,8 +36,8 @@ return [
 
     'public' => [
         'driver' => 'local',
-        'root' => public_path('storage/products'), // Updated path
-        'url' => env('APP_URL').'/storage/products',
+        'root' => public_path('storage'), // Pointing to the storage folder
+        'url' => env('APP_URL').'/storage',
         'visibility' => 'public',
     ],
 
@@ -52,6 +52,7 @@ return [
         'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
     ],
 ],
+
 
     /*
     |--------------------------------------------------------------------------
