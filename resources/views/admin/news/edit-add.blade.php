@@ -58,7 +58,7 @@
                                                         <div class="row mb-3">
                                                             <label class="col-sm-2 col-form-label" for="title_{{ $language }}">Xəbər adı</label>
                                                             <div class="col-sm-10">
-                                                                <input type="text" class="form-control" id="title_{{ $language }}" name="title_{{ $language }}" placeholder="Xəbər adını {{ $ language }} dilində daxil edin..." @if($language == 'az') required @endif @if(isset($news)) value="{{$news->getTranslation('title',$language)}}" @endif />
+                                                                <input type="text" class="form-control" id="title_{{ $language }}" name="title_{{ $language }}" placeholder="Xəbər adını {{ $language }} dilində daxil edin..." @if($language == 'az') required @endif @if(isset($news)) value="{{$news->getTranslation('title',$language)}}" @endif />
                                                             </div>
                                                         </div>
 
